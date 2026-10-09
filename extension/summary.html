@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Attention is the new status symbol — ENKRATEIA</title>
+  <link rel="stylesheet" href="ui.css"><link rel="stylesheet" href="summary.css">
+</head>
+<body><div class="summary">
+  <header class="row"><div class="brand"><span class="mark" aria-hidden="true"></span>ENKRATEIA</div><span class="eyebrow">Session reflection</span></header>
+  <main id="report" class="fade" hidden>
+    <div class="headline"><div><span id="date" class="eyebrow"></span>
+      <h1>Attention is the<br>new status symbol.</h1>
+      <p class="muted subtitle">A record of your ability to stay.</p>
+    </div><span id="elapsed" class="eyebrow"></span></div>
+    <section class="hero-metric" aria-labelledby="hero-label">
+      <h2 id="hero-label" class="eyebrow">Longest Uninterrupted Focus Streak</h2>
+      <div id="longest" class="number"></div>
+      <p class="muted">Your longest uninterrupted stretch in your approved workspace.</p>
+    </section>
+    <section class="metrics" aria-label="Supporting session metrics">
+      <div><div id="focused" class="metric-value"></div><div class="metric-label">Total focused time</div></div>
+      <div><div id="average" class="metric-value"></div><div class="metric-label">Average focus streak</div></div>
+      <div title="Attempts divided by total elapsed session hours, including time away."><div id="attempts-per-hour" class="metric-value"></div><div class="metric-label">Distraction attempts / hour</div></div>
+      <div title="Explicit Stay focused choices divided by all interruption attempts."><div id="resistance" class="metric-value"></div><div class="metric-label">Resistance rate</div></div>
+      <div title="Focused browsing time divided by total elapsed session time, including time away."><div id="focus-percentage" class="metric-value"></div><div class="metric-label">Focus percentage</div></div>
+    </section>
+    <section class="timeline-section" aria-labelledby="timeline-heading">
+      <div class="row"><h2 id="timeline-heading" class="eyebrow">The Shape of Your Session</h2><span id="attempt-count" class="muted"></span></div>
+      <div class="timeline-wrap">
+        <div id="attempt-markers" class="attempt-markers" aria-hidden="true"></div>
+        <div id="timeline" class="timeline" role="group" aria-label="Session timeline"></div>
+      </div>
+      <div class="row timeline-times"><span id="start-time"></span><span id="end-time"></span></div>
+      <div class="legend"><span><i class="focus"></i>Focused</span><span><i class="interruption"></i>Interruption</span><span><i class="distraction"></i>Distraction</span><span><i class="away"></i>Away</span></div>
+      <p id="timeline-detail" class="muted timeline-detail" aria-live="polite"></p>
+    </section>
+    <p id="context" class="muted"></p>
+    <div class="actions"><button id="export" class="secondary">Export session ↗</button><button id="clear" class="text-button">Delete session history</button></div>
+  </main>
+  <p id="error" class="error" role="alert"></p>
+  <footer><span>OBSERVABLE BROWSING BEHAVIOUR. NOT A MEASURE OF YOUR MIND.</span><span>STORED ONLY ON THIS DEVICE.</span></footer>
+</div><script type="module" src="summary.js"></script></body>
+</html>

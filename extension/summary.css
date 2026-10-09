@@ -1,0 +1,30 @@
+/* Summary refinements; shared popup and interruption styling stays in ui.css. */
+.summary .subtitle{font-size:14px}
+.summary .headline{align-items:flex-end}
+.summary #elapsed{white-space:nowrap;padding-bottom:3px}
+.summary .hero-metric{padding:33px 0 36px}
+.summary h2.eyebrow{font-family:Arial,Helvetica,sans-serif;font-weight:600;font-size:10px;letter-spacing:1.8px;line-height:1.6}
+.summary .hero-metric .number{font-size:96px;letter-spacing:-5px;margin-top:15px}
+.summary .metrics{grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;padding:27px 0}
+.summary .metric-value{font-size:29px;white-space:nowrap}
+.summary .metric-label{line-height:1.55;max-width:145px}
+.summary .timeline-section{margin:36px 0 27px}
+.summary .timeline-wrap{position:relative;margin:27px 0 12px}
+.summary .timeline{position:relative;display:block;height:40px;margin:0;border-radius:2px;overflow:visible;background:#e5e4dc}
+.summary .segment{position:absolute;top:0;bottom:0;min-width:0;border:0;transition:filter .15s}
+.summary .segment:hover{filter:brightness(1.14)}
+.summary .segment:focus-visible{outline:2px solid var(--ink);outline-offset:4px;z-index:2}
+.summary .segment:first-child{border-radius:2px 0 0 2px}
+.summary .segment:last-child{border-radius:0 2px 2px 0}
+.summary .interruption{background:#b2b79e}
+.summary .distraction{background:repeating-linear-gradient(135deg,#cccbbf 0,#cccbbf 3px,#bbbcb0 3px,#bbbcb0 4px)}
+.summary .away{background:#e5e4dc}
+.summary .attempt-markers{position:absolute;left:0;right:0;top:-10px;height:6px}
+.summary .attempt-marker{position:absolute;width:1px;height:6px;background:#777d68}
+.summary .timeline-times{font-size:10px;color:var(--muted);font-variant-numeric:tabular-nums}
+.summary .legend{margin-top:20px}
+.summary .timeline-detail{margin-top:17px;min-height:21px;font-size:11px}
+.summary #context:empty{display:none}
+.summary .actions{margin-top:27px}
+@media(max-width:800px){.summary .metrics{grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}.summary .headline{display:block}.summary #elapsed{display:block;margin-top:20px}}
+@media(max-width:480px){.summary .metrics{grid-template-columns:repeat(2,minmax(0,1fr))}.summary .hero-metric .number{font-size:72px;letter-spacing:-3px}.summary h1{font-size:38px}.summary .timeline-section .row{align-items:start}.summary #attempt-count{white-space:nowrap;font-size:10px}.summary footer{display:block}.summary footer span{display:block;margin-bottom:5px}}
