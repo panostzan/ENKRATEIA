@@ -11,7 +11,7 @@
   </a>
   <h1 align="center">ENKRATEIA</h1>
   <p align="center">
-    Eight seconds between impulse and intention.
+    Inspired by a reel sent by my mom; historically being fat was a status symbol. Now it will ability to focus
     <br />
     <strong>Attention is the new status symbol.</strong>
     <br /><br />
@@ -46,11 +46,11 @@
 
 ![The eight-second interruption screen][interruption-screenshot]
 
-Switching tabs is often an impulse before it becomes a decision. ENKRATEIA is a minimal Chrome extension that puts an eight-second pause between the two.
+I'm a chronic tab switcher and will be operating in countless tabs at once every time I open my computer so I decided to make an extension to prevent that. ENKRATEIA is a minimal Chrome extension that puts an eight-second pause between your ability to tab switch. The goal is once you begin a focus session you preselect the tabs you are allowed to use and ENKRATIEA blocks all others behind an 8 second wall. 
 
 Choose your productive tabs, start a session, and work freely within that workspace. When you switch elsewhere, you can return immediately or wait eight seconds and deliberately continue.
 
-**Friction, not prohibition.** You keep control. ENKRATEIA makes the choice visible.
+**The goal is added friction, not prohibition.**
 
 - A calm interruption screen that preserves the destination's page state.
 - Focused browsing time and uninterrupted streaks, with pauses when Chrome loses focus.
