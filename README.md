@@ -11,7 +11,7 @@
   </a>
   <h1 align="center">ENKRATEIA</h1>
   <p align="center">
-    Inspired by a reel sent by my mom; historically being fat was a status symbol. Now it will ability to focus
+    Inspired by a reel sent by my mom; throughout human history being fat was a status symbol. then it flipped. Attention span is the new status symbol
     <br />
     <strong>Attention is the new status symbol.</strong>
     <br /><br />
